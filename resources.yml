@@ -3,7 +3,6 @@ title: "Securing Your Containers with Kata Containers"
 author: "kubernetes.org"
 categories:
   - 'Category Name 1'
-  - 'Category Name 2'
 references:
   building_blocks:
     - 1
