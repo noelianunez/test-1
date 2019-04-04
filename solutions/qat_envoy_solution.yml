@@ -1,0 +1,20 @@
+id: 1
+title: "QAT Envoy Solution"
+type: "solution"
+categories:
+  - 'Networking'
+  - 'Runtimes & Programming'
+summary: "Accelerate compute-intensive workloads for security, encryption, authentication and compression"
+description: |
+  Delivered through Intel QuickAssist Technology, orchestrated by Kubernetes
+github_url: "https://github.com/intel/intel-device-plugins-for-kubernetes/blob/master/cmd/fpga_plugin/README.md"
+architecture_diagram: "http://google.com/image.png"
+benefit_copy: 
+    - title: "Accelerate compute-intensive workloads for security, encryption, authentication and compression with Intel® QuickAssist Technology (Intel® QAT), orchestrated by Kubernetes."
+    - description: |
+        To help developers speed prototyping and ease customization, Intel delivers integrated, highly-performant reference stacks.  
+        This reference stack, or solution, is designed to accelerate Transport Layer Security (TLS) workloads using Intel® QuickAssist Technology (Intel® QAT), paired with Envoy, for use in widespread applications like web browsing, email, instant messaging and voice over IP (VoIP), as well as more specialized use cases, such as SDN/NFV integration and data movement in big data installations. Intel® QAT allows acceleration of the TLS (Open SSL) but also creates security due to limiting exposure of key material and processing. Running TLS workloads on this setup has yielded considerable performance improvements.
+        
+        - Encrypted traffic with K6 http traffic generator (in Docker container or generating traffic bare metal on host)
+        - TLS termination in Envoy*
+        - TLS crypto operations asynchronously offloaded to Intel® QuickAssist Technology (Intel® QAT) crypto and compression hardware accelerator

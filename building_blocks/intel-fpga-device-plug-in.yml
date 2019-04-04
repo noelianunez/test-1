@@ -1,0 +1,16 @@
+id: 2
+title: "Intel® FPGA Device Plug-in"
+type: "building block"
+categories:
+  - 'Networking'
+  - 'Runtimes & Programming'
+summary: "Accelerate compute-intensive workloads for security, encryption, authentication and compression"
+description: |
+  #### FPGAs provide scalable acceleration for a broad array of applications such as communications, data center, military, broadcast, automotive, and more
+  Configure and manage these devices in Kubernetes* with the Intel FPGA Device Plugin
+github_url: "https://github.com/intel/intel-device-plugins-for-kubernetes/blob/master/cmd/fpga_plugin/README.md"
+architecture_diagram: "http://google.com/image.png"
+benefit_copy: 
+    - title: "Accelerate compute-intensive workloads for security, encryption, authentication and compression with Intel® QuickAssist Technology (Intel® QAT), orchestrated by Kubernetes."
+    - description: |
+        The Intel FPGA plugin supports the Intel® Programmable Acceleration cards with Intel® Arria® 10 FPGA and Intel® Stratix® 10 FPGAs. The FPGA plugin supports the Open Programmable Acceleration Engine (OPAE) framework and OpenCL™ code. It is designed for pre-programmed accelerators, orchestration programming, and access control.

@@ -1,0 +1,17 @@
+id: 1
+title: "QAT Device Plugin"
+type: "building block"
+categories:
+  - 'Networking'
+  - 'Runtimes & Programming'
+summary: "Accelerate compute-intensive workloads for security, encryption, authentication and compression"
+description: |
+  #### Accelerated performance for security, authentication and compression
+  Delivered through Intel QuickAssist Technology, orchestrated by Kubernetes
+github_url: "https://github.com/intel/intel-device-plugins-for-kubernetes/blob/master/cmd/fpga_plugin/README.md"
+architecture_diagram: "http://google.com/image.png"
+benefit_copy: 
+    - title: "Accelerate compute-intensive workloads for security, encryption, authentication and compression with Intel® QuickAssist Technology (Intel® QAT), orchestrated by Kubernetes."
+    - description: |
+        The Intel® QAT device plugin enables you to harness Intel devices to increase performance and efficiency across applications and platforms, including cloud, networking, big data and storage.  
+        [link example](http://google.com)
